@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/layout-v21/notification_action.xml"
+    }
+]

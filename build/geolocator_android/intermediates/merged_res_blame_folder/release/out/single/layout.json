@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/layout/notification_template_part_chronometer.xml"
+    }
+]

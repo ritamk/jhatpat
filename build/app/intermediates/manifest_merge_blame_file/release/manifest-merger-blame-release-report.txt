@@ -1,0 +1,374 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.jhatpat"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:37:5-67
+11-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:37:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:38:5-79
+12-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:38:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:39:5-81
+13-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:39:22-78
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->[:geolocator_android] /Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:7:5-77
+14-->[:geolocator_android] /Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/535ee62dd2bf238dae452145650d4c86/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/535ee62dd2bf238dae452145650d4c86/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:23:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/535ee62dd2bf238dae452145650d4c86/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/535ee62dd2bf238dae452145650d4c86/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/535ee62dd2bf238dae452145650d4c86/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/535ee62dd2bf238dae452145650d4c86/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:25:22-76
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.0.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a68cf729cf0111bf434250c238796b5d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.0.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a68cf729cf0111bf434250c238796b5d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.0.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a68cf729cf0111bf434250c238796b5d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.0.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a68cf729cf0111bf434250c238796b5d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.0.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a68cf729cf0111bf434250c238796b5d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.0.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a68cf729cf0111bf434250c238796b5d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+27        <!-- Specific apps you interact with, eg: -->
+28        <package android:name="com.paytm.pgsdk.TransactionManager.PAYTM_APP_PACKAGE" />
+28-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:12:9-88
+28-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:12:18-85
+29        <!--
+30             Specific intents you query for,
+31             eg: for a custom share UI
+32        -->
+33        <intent>
+33-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:17:9-19:18
+34            <action android:name="android.intent.action.MAIN" />
+34-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:24:17-68
+34-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:24:25-66
+35        </intent>
+36    </queries>
+37
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:5-110
+38-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:26:22-107
+39    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+39-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:10:5-75
+39-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:10:22-72
+40
+41    <application
+42        android:name="android.app.Application"
+42-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:5:9-42
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.8.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/AndroidManifest.xml:24:18-86
+44        android:icon="@mipmap/launcher_icon"
+44-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:6:9-45
+45        android:label="Jhatpat" >
+45-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:4:9-32
+46        <activity
+46-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:7:9-27:20
+47            android:name="app.jhatpat.MainActivity"
+47-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:8:13-41
+48            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+48-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:12:13-163
+49            android:exported="true"
+49-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:9:13-36
+50            android:hardwareAccelerated="true"
+50-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:13:13-47
+51            android:launchMode="singleTop"
+51-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:10:13-43
+52            android:theme="@style/LaunchTheme"
+52-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:11:13-47
+53            android:windowSoftInputMode="adjustResize" >
+53-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:14:13-55
+54
+55            <!--
+56                 Specifies an Android theme to apply to this Activity as soon as
+57                 the Android process has started. This theme is visible to the user
+58                 while the Flutter UI initializes. After that, this theme continues
+59                 to determine the Window background behind the Flutter UI.
+60            -->
+61            <meta-data
+61-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:19:13-22:17
+62                android:name="io.flutter.embedding.android.NormalTheme"
+62-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:20:15-70
+63                android:resource="@style/NormalTheme" />
+63-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:21:15-52
+64
+65            <intent-filter>
+65-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:23:13-26:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:24:17-68
+66-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:24:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:25:17-76
+68-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:25:27-74
+69            </intent-filter>
+70        </activity>
+71        <!--
+72             Don't delete the meta-data below.
+73             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+74        -->
+75        <meta-data
+75-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:30:9-32:33
+76            android:name="flutterEmbedding"
+76-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:31:13-44
+77            android:value="2" />
+77-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:32:13-30
+78        <meta-data
+78-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:33:9-35:70
+79            android:name="com.google.android.geo.API_KEY"
+79-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:34:13-58
+80            android:value="AIzaSyB-vTdHvOxBzpybH3xVJTuIASuicCfPv8c" />
+80-->/Users/ritamkonar/Documents/jhatpat_user/android/app/src/main/AndroidManifest.xml:35:13-68
+81
+82        <service
+82-->[:geolocator_android] /Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:10:9-14:56
+83            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+83-->[:geolocator_android] /Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-77
+84            android:enabled="true"
+84-->[:geolocator_android] /Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:12:13-35
+85            android:exported="false"
+85-->[:geolocator_android] /Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+86            android:foregroundServiceType="location" />
+86-->[:geolocator_android] /Users/ritamkonar/Documents/jhatpat_user/build/geolocator_android/intermediates/library_manifest/release/AndroidManifest.xml:14:13-53
+87
+88        <provider
+88-->[:image_picker_android] /Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+89            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+89-->[:image_picker_android] /Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-82
+90            android:authorities="app.jhatpat.flutter.image_provider"
+90-->[:image_picker_android] /Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-74
+91            android:exported="false"
+91-->[:image_picker_android] /Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+92            android:grantUriPermissions="true" >
+92-->[:image_picker_android] /Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+93            <meta-data
+93-->[:image_picker_android] /Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:75
+94                android:name="android.support.FILE_PROVIDER_PATHS"
+94-->[:image_picker_android] /Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:14:17-67
+95                android:resource="@xml/flutter_image_picker_file_paths" />
+95-->[:image_picker_android] /Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/library_manifest/release/AndroidManifest.xml:15:17-72
+96        </provider>
+97
+98        <activity
+98-->[:url_launcher_android] /Users/ritamkonar/Documents/jhatpat_user/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+99            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+99-->[:url_launcher_android] /Users/ritamkonar/Documents/jhatpat_user/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+100            android:exported="false"
+100-->[:url_launcher_android] /Users/ritamkonar/Documents/jhatpat_user/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+101            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+101-->[:url_launcher_android] /Users/ritamkonar/Documents/jhatpat_user/build/url_launcher_android/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+102
+103        <service
+103-->[:location] /Users/ritamkonar/Documents/jhatpat_user/build/location/intermediates/library_manifest/release/AndroidManifest.xml:11:9-15:56
+104            android:name="com.lyokone.location.FlutterLocationService"
+104-->[:location] /Users/ritamkonar/Documents/jhatpat_user/build/location/intermediates/library_manifest/release/AndroidManifest.xml:12:13-71
+105            android:enabled="true"
+105-->[:location] /Users/ritamkonar/Documents/jhatpat_user/build/location/intermediates/library_manifest/release/AndroidManifest.xml:13:13-35
+106            android:exported="false"
+106-->[:location] /Users/ritamkonar/Documents/jhatpat_user/build/location/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+107            android:foregroundServiceType="location" />
+107-->[:location] /Users/ritamkonar/Documents/jhatpat_user/build/location/intermediates/library_manifest/release/AndroidManifest.xml:15:13-53
+108        <service
+108-->[com.google.firebase:firebase-analytics-ktx:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/ae67f5fd9cd9307979ad9a39ba76021c/jetified-firebase-analytics-ktx-20.1.2/AndroidManifest.xml:8:9-14:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[com.google.firebase:firebase-analytics-ktx:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/ae67f5fd9cd9307979ad9a39ba76021c/jetified-firebase-analytics-ktx-20.1.2/AndroidManifest.xml:9:13-84
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/b4852656d5ba3a06c989306d01112117/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-analytics-ktx:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/ae67f5fd9cd9307979ad9a39ba76021c/jetified-firebase-analytics-ktx-20.1.2/AndroidManifest.xml:10:13-37
+112            <meta-data
+112-->[com.google.firebase:firebase-analytics-ktx:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/ae67f5fd9cd9307979ad9a39ba76021c/jetified-firebase-analytics-ktx-20.1.2/AndroidManifest.xml:11:13-13:85
+113                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+113-->[com.google.firebase:firebase-analytics-ktx:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/ae67f5fd9cd9307979ad9a39ba76021c/jetified-firebase-analytics-ktx-20.1.2/AndroidManifest.xml:12:17-126
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-analytics-ktx:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/ae67f5fd9cd9307979ad9a39ba76021c/jetified-firebase-analytics-ktx-20.1.2/AndroidManifest.xml:13:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-common-ktx:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/36097da09ef22c9b1b19d9e43fec89ce/jetified-firebase-common-ktx-20.1.0/AndroidManifest.xml:15:13-17:85
+116                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+116-->[com.google.firebase:firebase-common-ktx:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/36097da09ef22c9b1b19d9e43fec89ce/jetified-firebase-common-ktx-20.1.0/AndroidManifest.xml:16:17-113
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-common-ktx:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/36097da09ef22c9b1b19d9e43fec89ce/jetified-firebase-common-ktx-20.1.0/AndroidManifest.xml:17:17-82
+118            <meta-data
+118-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/535ee62dd2bf238dae452145650d4c86/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:31:13-33:85
+119                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+119-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/535ee62dd2bf238dae452145650d4c86/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:32:17-139
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/535ee62dd2bf238dae452145650d4c86/jetified-play-services-measurement-api-20.1.2/AndroidManifest.xml:33:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-installations:17.0.1] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/45a65ed937e97bad6786067855d4eae8/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+122                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+122-->[com.google.firebase:firebase-installations:17.0.1] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/45a65ed937e97bad6786067855d4eae8/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-installations:17.0.1] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/45a65ed937e97bad6786067855d4eae8/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+124        </service>
+125
+126        <uses-library
+126-->[androidx.window:window:1.0.0-beta04] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/c15149140bcc27b70424f541b52a2f41/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+127            android:name="androidx.window.extensions"
+127-->[androidx.window:window:1.0.0-beta04] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/c15149140bcc27b70424f541b52a2f41/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+128            android:required="false" />
+128-->[androidx.window:window:1.0.0-beta04] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/c15149140bcc27b70424f541b52a2f41/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+129        <uses-library
+129-->[androidx.window:window:1.0.0-beta04] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/c15149140bcc27b70424f541b52a2f41/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+130            android:name="androidx.window.sidecar"
+130-->[androidx.window:window:1.0.0-beta04] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/c15149140bcc27b70424f541b52a2f41/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+131            android:required="false" />
+131-->[androidx.window:window:1.0.0-beta04] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/c15149140bcc27b70424f541b52a2f41/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+132
+133        <provider
+133-->[com.google.firebase:firebase-common:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/b4852656d5ba3a06c989306d01112117/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+134            android:name="com.google.firebase.provider.FirebaseInitProvider"
+134-->[com.google.firebase:firebase-common:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/b4852656d5ba3a06c989306d01112117/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+135            android:authorities="app.jhatpat.firebaseinitprovider"
+135-->[com.google.firebase:firebase-common:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/b4852656d5ba3a06c989306d01112117/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+136            android:directBootAware="true"
+136-->[com.google.firebase:firebase-common:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/b4852656d5ba3a06c989306d01112117/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+137            android:exported="false"
+137-->[com.google.firebase:firebase-common:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/b4852656d5ba3a06c989306d01112117/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+138            android:initOrder="100" />
+138-->[com.google.firebase:firebase-common:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/b4852656d5ba3a06c989306d01112117/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+139
+140        <activity
+140-->[com.google.android.gms:play-services-auth:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/6f0f984e0165251958a41842db943b27/jetified-play-services-auth-20.1.0/AndroidManifest.xml:23:9-27:75
+141            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+141-->[com.google.android.gms:play-services-auth:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/6f0f984e0165251958a41842db943b27/jetified-play-services-auth-20.1.0/AndroidManifest.xml:24:13-93
+142            android:excludeFromRecents="true"
+142-->[com.google.android.gms:play-services-auth:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/6f0f984e0165251958a41842db943b27/jetified-play-services-auth-20.1.0/AndroidManifest.xml:25:13-46
+143            android:exported="false"
+143-->[com.google.android.gms:play-services-auth:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/6f0f984e0165251958a41842db943b27/jetified-play-services-auth-20.1.0/AndroidManifest.xml:26:13-37
+144            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+144-->[com.google.android.gms:play-services-auth:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/6f0f984e0165251958a41842db943b27/jetified-play-services-auth-20.1.0/AndroidManifest.xml:27:13-72
+145        <!--
+146            Service handling Google Sign-In user revocation. For apps that do not integrate with
+147            Google Sign-In, this service will never be started.
+148        -->
+149        <service
+149-->[com.google.android.gms:play-services-auth:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/6f0f984e0165251958a41842db943b27/jetified-play-services-auth-20.1.0/AndroidManifest.xml:33:9-37:51
+150            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+150-->[com.google.android.gms:play-services-auth:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/6f0f984e0165251958a41842db943b27/jetified-play-services-auth-20.1.0/AndroidManifest.xml:34:13-89
+151            android:exported="true"
+151-->[com.google.android.gms:play-services-auth:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/6f0f984e0165251958a41842db943b27/jetified-play-services-auth-20.1.0/AndroidManifest.xml:35:13-36
+152            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+152-->[com.google.android.gms:play-services-auth:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/6f0f984e0165251958a41842db943b27/jetified-play-services-auth-20.1.0/AndroidManifest.xml:36:13-107
+153            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+153-->[com.google.android.gms:play-services-auth:20.1.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/6f0f984e0165251958a41842db943b27/jetified-play-services-auth-20.1.0/AndroidManifest.xml:37:13-48
+154        <uses-library
+154-->[com.google.android.gms:play-services-maps:18.0.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a68cf729cf0111bf434250c238796b5d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+155            android:name="org.apache.http.legacy"
+155-->[com.google.android.gms:play-services-maps:18.0.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a68cf729cf0111bf434250c238796b5d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+156            android:required="false" />
+156-->[com.google.android.gms:play-services-maps:18.0.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a68cf729cf0111bf434250c238796b5d/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+157
+158        <activity
+158-->[com.google.android.gms:play-services-base:18.0.1] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/8eafd539fbb11d014d508692bbff6fb4/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+159            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+159-->[com.google.android.gms:play-services-base:18.0.1] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/8eafd539fbb11d014d508692bbff6fb4/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-base:18.0.1] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/8eafd539fbb11d014d508692bbff6fb4/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-base:18.0.1] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/8eafd539fbb11d014d508692bbff6fb4/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+162
+163        <receiver
+163-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:29:9-33:20
+164            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+164-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:30:13-85
+165            android:enabled="true"
+165-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:31:13-35
+166            android:exported="false" >
+166-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:32:13-37
+167        </receiver>
+168
+169        <service
+169-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:35:9-38:40
+170            android:name="com.google.android.gms.measurement.AppMeasurementService"
+170-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:36:13-84
+171            android:enabled="true"
+171-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:37:13-35
+172            android:exported="false" />
+172-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:38:13-37
+173        <service
+173-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:39:9-43:72
+174            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+174-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:40:13-87
+175            android:enabled="true"
+175-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:41:13-35
+176            android:exported="false"
+176-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:42:13-37
+177            android:permission="android.permission.BIND_JOB_SERVICE" />
+177-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/0396a87b8eb17a905e108f454fd28a46/jetified-play-services-measurement-20.1.2/AndroidManifest.xml:43:13-69
+178
+179        <meta-data
+179-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/cc91cf130b386aac8a252a7bb5e33ef9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+180            android:name="com.google.android.gms.version"
+180-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/cc91cf130b386aac8a252a7bb5e33ef9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+181            android:value="@integer/google_play_services_version" />
+181-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/cc91cf130b386aac8a252a7bb5e33ef9/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+182
+183        <activity
+183-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:23:9-26:66
+184            android:name="com.paytm.pgsdk.PaytmPGActivity"
+184-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:24:13-59
+185            android:screenOrientation="portrait"
+185-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:25:13-49
+186            android:theme="@style/Theme.AppCompat.NoActionBar" />
+186-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:26:13-63
+187        <activity
+187-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:27:9-29:63
+188            android:name="com.paytm.pgsdk.AioMatchUserActivity"
+188-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:28:13-64
+189            android:theme="@style/TransparentActivityTheme" />
+189-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:29:13-60
+190
+191        <service
+191-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:31:9-33:40
+192            android:name="com.paytm.pgsdk.IntentServicePostNotification"
+192-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:32:13-73
+193            android:exported="false" />
+193-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:33:13-37
+194        <service
+194-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:34:9-36:40
+195            android:name="com.paytm.pgsdk.IntentServicePreNotification"
+195-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:35:13-72
+196            android:exported="false" />
+196-->[com.paytm.appinvokesdk:appinvokesdk:1.6.11] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/a23e372da98819df20382ccae009bec0/jetified-appinvokesdk-1.6.11/AndroidManifest.xml:36:13-37
+197        <service
+197-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:14:9-17:72
+198            android:name="easypay.appinvoke.utils.EasyPayConfigDownloader"
+198-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:15:13-75
+199            android:exported="false"
+199-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:16:13-37
+200            android:permission="android.permission.BIND_JOB_SERVICE" />
+200-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:17:13-69
+201        <service
+201-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:18:9-22:72
+202            android:name="easypay.appinvoke.utils.AnalyticsService"
+202-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:19:13-68
+203            android:enabled="true"
+203-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:20:13-35
+204            android:exported="false"
+204-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:21:13-37
+205            android:permission="android.permission.BIND_JOB_SERVICE" />
+205-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:22:13-69
+206
+207        <activity android:name="easypay.appinvoke.AnalyticsManagerInfoDisplayActivity" />
+207-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:24:9-90
+207-->[com.paytm.easypay:easypay-appinvoke:1.7.4] /Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/bd2c75e8c0d40d2d64a0da31dfcdb62c/jetified-easypay-appinvoke-1.7.4/AndroidManifest.xml:24:19-87
+208    </application>
+209
+210</manifest>

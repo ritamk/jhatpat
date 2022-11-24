@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/drawable/notification_tile_bg.xml"
+    }
+]

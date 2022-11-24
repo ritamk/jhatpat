@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/res/merged/debug/values-as/values-as.xml",
+            "map": [
+                {
+                    "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/ritamkonar/Documents/jhatpat_user/build/image_picker_android/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
+            "map": [
+                {
+                    "source": "/Users/ritamkonar/.gradle/caches/transforms-2/files-2.1/5e75e2028852683c23807de833b12e28/core-1.8.0/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
