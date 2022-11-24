@@ -1,0 +1,48 @@
+// late BitmapDescriptor pickupIcon;
+  // late BitmapDescriptor dropoffIcon;
+
+  // @override
+  // void initState() {
+  //   super.initState();
+  //   BitmapDescriptor.fromAssetImage(
+  //           const ImageConfiguration(size: Size(20.0, 20.0)),
+  //           "assets/images/MapIconPickup.png")
+  //       .then((value) => pickupIcon = value);
+  //   BitmapDescriptor.fromAssetImage(
+  //           const ImageConfiguration(size: Size(20.0, 20.0)),
+  //           "assets/images/MapIconDropoff.png")
+  //       .then((value) => dropoffIcon = value);
+  // }
+
+  // title: Padding(
+                //   padding: const EdgeInsets.all(4.0),
+                //   child: SingleChildScrollView(
+                //     child: Column(
+                //       children: <Widget>[
+                //         Row(
+                //           children: <Widget>[
+                //             Expanded(
+                //               child: TextFormField(
+                //                   decoration: searchTextInputDecoration(
+                //                       "Enter origin",
+                //                       Icons.location_on_rounded,
+                //                       null)),
+                //             ),
+                //           ],
+                //         ),
+                //         const SizedBox(height: 5.0, width: 0.0),
+                //         Row(
+                //           children: <Widget>[
+                //             Expanded(
+                //               child: TextFormField(
+                //                   decoration: searchTextInputDecoration(
+                //                       "Enter destination",
+                //                       Icons.location_on_rounded,
+                //                       null)),
+                //             ),
+                //           ],
+                //         ),
+                //       ],
+                //     ),
+                //   ),
+                // ),
